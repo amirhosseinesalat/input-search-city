@@ -1,4 +1,4 @@
-/* مرکز‌چین کل صفحه */
+
 body {
   height: 100vh;
   display: flex;
@@ -8,7 +8,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* کارت ورودی */
+
 .input {
   position: relative;
   width: 380px;
@@ -20,7 +20,7 @@ body {
   color: #e2e8f0;
 }
 
-/* لیبل */
+
 .input label {
   display: block;
   margin-bottom: 10px;
@@ -30,7 +30,7 @@ body {
   letter-spacing: 0.4px;
 }
 
-/* فیلد ورودی */
+
 .input input {
   width: 100%;
   padding: 12px 15px;
@@ -52,7 +52,7 @@ body {
   box-shadow: 0 0 10px rgba(59, 130, 246, 0.6);
 }
 
-/* لیست پیشنهادها */
+
 .input ul {
   position: absolute;
   top: 105%;
@@ -71,7 +71,7 @@ body {
   animation: fadeDown 0.25s ease;
 }
 
-/* آیتم‌های شهر */
+
 .input li {
   padding: 10px 16px;
   cursor: pointer;
@@ -85,7 +85,7 @@ body {
   transform: translateX(5px);
 }
 
-/* افکت ظاهر شدن dropdown */
+
 @keyframes fadeDown {
   from {
     opacity: 0;
@@ -97,7 +97,7 @@ body {
   }
 }
 
-/* اسکرول‌بار ظریف */
+
 .input ul::-webkit-scrollbar {
   width: 6px;
 }
