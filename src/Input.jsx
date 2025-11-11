@@ -1,7 +1,7 @@
 import { useState } from "react";
 import cities from "./cities.json";
 
-const Input = ({ hint }) => {
+const Input = () => {
   const [city, setCity] = useState(cities);
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredCities, setFilteredCities] = useState([]);
@@ -19,7 +19,7 @@ const Input = ({ hint }) => {
   };
   return (
     <div className="input">
-      <label htmlFor="input">{hint}</label>
+      <label htmlFor="input"></label>
       <input
         type="text"
         id="input"
